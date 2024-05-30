@@ -126,7 +126,6 @@ body{
     border-radius: 5px;
     width: 158px;
     height: 40px;
-
 }
 .vid-btn{
     border:0;
@@ -201,4 +200,71 @@ body{
     font-size: 13px;
     margin-bottom: 30px;
 
+}
+
+.specialists{
+    width: 1114px;
+    height: 513px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.specimgset{
+    width: 1114px;
+    height: 513px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.specimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.specimg img{
+    height: 305px;
+    width: 253px;
+}
+.docname{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.facilities{
+    width: 1114px;
+    height: 513px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.facimg{
+    width: 1114px;
+    height: 513px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.facimg img{
+    width: 352px;
+    height:227px;
+}
+.maybe{
+    width: 1114px;
+    height: 513px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.masimg{
+    width: 1114px;
+    height: 513px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.imgmay img{
+    width: 350px;
+    height: 205px;
 }
