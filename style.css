@@ -233,7 +233,7 @@ body{
 }
 .facilities{
     width: 1114px;
-    height: 513px;
+    height: 350px;
     margin-left: 60px;
     display: flex;
     flex-direction: column;
@@ -241,7 +241,7 @@ body{
 }
 .facimg{
     width: 1114px;
-    height: 513px;
+    height: 350px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -250,8 +250,9 @@ body{
     height:227px;
 }
 .maybe{
-    width: 1114px;
-    height: 513px;
+    position: absolute;
+    margin-bottom: 500px;
+    top: -160px;
     margin-left: 60px;
     display: flex;
     flex-direction: column;
@@ -268,3 +269,110 @@ body{
     width: 350px;
     height: 205px;
 }
+.combined-absolute{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 200px;
+    height:639.33px;
+    width: 1263px;
+    background-color: #EAF2FF;
+}
+.newsletter{
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 350px;
+    width: 1104px;
+    height: 215px;
+    background-image: url("./Assets/Mask\ group\ \(5\).png");
+    background-color: #FFF;
+}
+.nwl-text{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin-top: 50px;
+    margin:50px
+}
+.input-container {
+    width: 384px;
+    height: 42px;
+    border-bottom: 1px black solid;
+    display: inline-flex; /* Aligns items horizontally */
+    align-items: center; /* Vertically aligns items in the middle */
+    padding: 3px;
+    background-color: #fff; /* Light grey background */
+  }
+  
+  input[type="text"] {
+    height: 42px;
+    border:none;
+    flex-grow: 1; /* Allows the input to take up remaining space */
+    margin-right: 10px; /* Adds some space between the input and the button */
+  }
+  
+  .inside-button {
+    border:none;
+    background-color:#17C1A3;
+    color:#F5F5F5;
+    width: 102px;
+    height:40px;
+    padding: 5px 10px; /* Adds some padding to the button */
+    cursor: pointer; /* Changes the cursor to indicate it's clickable */
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    height: 389px;
+    width: 1247px;
+    justify-content: center;
+    align-items: center;
+  }
+  .addrandother{
+    padding-top: 100px;
+    width: 954px;
+    height: 150px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+  }
+  .addr img{
+    width: 190px;
+    height: 50px;
+  }
+  .div4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+  }
+  .div4 p{
+    font-size: 9px;
+  }
+  .gglegal{
+    display: flex;
+    gap:100px;
+
+  }
+  .addrclasssocial{
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+
+  }
+  .imageset{
+    display: flex;
+    justify-content: space-between;
+  }
+  .ic{
+    display: flex;
+    align-items: center;
+  }
+  .ic img{
+
+    height: 14px;
+    width: 15px;
+  }
+  
