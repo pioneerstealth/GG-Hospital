@@ -4,8 +4,9 @@ body{
 }
 .main{
     display: flex;
-    gap:10px;
+    justify-content: space-evenly;
     flex-direction: column;
+    gap:70px;
 }
 .contact{
     display: flex;
@@ -307,14 +308,14 @@ body{
     background-color: #fff; /* Light grey background */
   }
   
-  input[type="text"] {
+.input-container  input[type="text"] {
     height: 42px;
     border:none;
-    flex-grow: 1; /* Allows the input to take up remaining space */
-    margin-right: 10px; /* Adds some space between the input and the button */
+    flex-grow: 1; 
+    margin-right: 10px;
   }
   
-  .inside-button {
+.inside-button {
     border:none;
     background-color:#17C1A3;
     color:#F5F5F5;
@@ -375,4 +376,26 @@ body{
     height: 14px;
     width: 15px;
   }
+.inline-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.inline-content p,
+.inline-content a p {
+    margin: 3px; /* Removes default margins around <p> elements */
+}
+.sideline{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sideline img{
+    width: 99px;
+    height:9px;
+    justify-content: flex-end;
+    
+}
+
   
