@@ -116,6 +116,20 @@ body{
     gap: 10px;
 
 }
+
+#customDateInput::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: transparent;
+}
+#customDateInput::-moz-placeholder { /* Firefox 19+ */
+    color: transparent;
+}
+#customDateInput:-ms-input-placeholder { /* IE 10+ */
+    color: transparent;
+}
+#customDateInput:-moz-placeholder { /* Firefox 18- */
+    color: transparent;
+}
+
 .button img{
     height: 21;
     width:21;
@@ -359,8 +373,8 @@ body{
   }
   .addrclasssocial{
     display: flex;
+    width: 954px;
     justify-content: space-between;
-    gap:100px;
 
   }
   .imageset{
@@ -370,11 +384,19 @@ body{
   .ic{
     display: flex;
     align-items: center;
+    gap: 4px;
   }
   .ic img{
-
     height: 14px;
     width: 15px;
+  }
+  .social{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    padding-left: 100px;
+
+    align-self: self-end;
   }
 .inline-content {
     display: flex;
